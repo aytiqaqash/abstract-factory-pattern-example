@@ -1,6 +1,6 @@
 package dev.aytiqaqash;
 
-public class BusinessLoan extends Loan{
+public class BussinessLoan extends Loan{
     public void getInterestRate(double r){
         rate=r;
     }
