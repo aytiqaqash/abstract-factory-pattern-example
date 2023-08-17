@@ -12,7 +12,7 @@ public class LoanFactory extends AbstractFactory{
         if(loan.equalsIgnoreCase("Home")){
             return new HomeLoan();
         } else if(loan.equalsIgnoreCase("Business")){
-            return new BussinessLoan();
+            return new BusinessLoan();
         } else if(loan.equalsIgnoreCase("Education")){
             return new EducationLoan();
         }
